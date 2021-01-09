@@ -1,2 +1,7 @@
-public class RegisterUser  {
+public class RegisterUser {
+
+
+    public void formRegister(){
+
+    }
 }
