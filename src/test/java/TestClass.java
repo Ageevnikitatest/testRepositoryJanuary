@@ -12,7 +12,6 @@ import java.util.List;
 
 public class TestClass {
     WebDriver driver;
-
     @Before
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/Users/mykyta/IdeaProjects/chromedriver");
@@ -29,7 +28,7 @@ public class TestClass {
     public void test() {
 
         String element = "//div[@data-filter-name='producer']//div[@class='scrollbar__inner']//label[@for]";
-        MainPage browser = new MainPage();
+
         driver.get("https://bt.rozetka.com.ua/drying_machines/c80222/");
         driver.manage().window().fullscreen();
 
